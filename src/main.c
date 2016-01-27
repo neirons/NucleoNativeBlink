@@ -68,10 +68,10 @@ int main() {
 
   // Blink LED.
   while(1) {
-     //for(int n=0;n<10;n++){
-       // ms_delay(70);
+     for(int n=0;n<10;n++){
+        ms_delay(70);
         LED_TOGGLE();
-     //}
+     }
   ms_delay(1000);
   }
 }
