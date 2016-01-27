@@ -11,6 +11,8 @@ OBJCOPY = arm-none-eabi-objcopy
 OBJDUMP = arm-none-eabi-objdump
 SIZE = arm-none-eabi-size
 RM = rm -f
+RMDIR = rm -rf
+NUCLEO = /media/neirons/NUCLEO
 
 #=============================================================================#
 # project configuration
@@ -325,6 +327,7 @@ else
 endif
 ifneq ($(strip $(GENERATED)), )
 	$(RM) $(GENERATED)
+	$(RMDIR) $(OUT_DIR_F)
 else
 	@echo 'Nothing to remove...'
 endif
@@ -335,6 +338,7 @@ else
 endif
 ifneq ($(strip $(TEMPORARY)), )
 	$(RM) $(TEMPORARY)
+	$(RMDIR) $(TMP_DIR_F)
 else
 	@echo 'Nothing to remove...'
 endif
