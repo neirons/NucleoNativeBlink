@@ -16,7 +16,9 @@
 *
 */
 
+#include <main.h>
 #include <stm32f4xx.h>
+/*
 #define LED_PIN 5
 
 #define GPIO_PIN_0		((uint16_t)0x0001)
@@ -45,6 +47,8 @@
 #define LED_TOGGLE() GPIO_TogglePinValue(GPIOA, GPIO_PIN_5)
 #define LED_OFF() GPIO_SetPinLow(GPIOA, GPIO_PIN_5)
 #define LED_ON() GPIO_SetPinHigh(GPIOA, GPIO_PIN_5)
+
+*/
 
 //Quick hack, approximately 1ms delay
 void ms_delay(int ms) {

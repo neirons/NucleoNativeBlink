@@ -59,6 +59,7 @@ AS_DEFS =
 INC_DIRS = $(CUBE_ROOT)/Drivers/CMSIS/Include
 INC_DIRS += $(CUBE_ROOT)/Drivers/STM32F4xx_HAL_Driver/Inc
 INC_DIRS += $(CUBE_ROOT)/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+INC_DIRS += inc
 
 # library directories (absolute or relative paths to additional folders with
 # libraries)
