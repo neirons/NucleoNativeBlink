@@ -1,0 +1,7 @@
+*.[oa]
+*.
+release/
+tmp/
+*.pdf
+*.txt
+
